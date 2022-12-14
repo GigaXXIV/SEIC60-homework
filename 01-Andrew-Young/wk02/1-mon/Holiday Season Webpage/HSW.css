@@ -10,9 +10,14 @@ body {
     background-attachment: fixed;
     color: white;
     font-family: proxima nova;
-  }
+}
 
-  h1 {
+img {
+    border-radius: 50%;
+    height: 300px
+}
+
+h1 {
     font-family: 'Satisfy', cursive;
     padding-bottom: 10px;
     opacity: 90%;
@@ -22,26 +27,28 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     border-top: 10px;
-  }
+}
 
-  h2 {
+h2 {
     padding-bottom: 20px;
-  }
+    /* background-color: rgba(0, 0, 0, 0.5) */
+}
 
-  p {
+p {
     padding-bottom: 20px;
     font-size: 22px;
     font-weight: normal;
     text-transform: capitalize;
-  }
+}
 
-  input {
+input {
     border: 0;
     padding: 10px;
     font-size: 18px;
-  }
+    margin: 20px 0px 100px 0px;
+}
 
-  input[type="submit"] {
+input[type="submit"] {
     background-color: #000;
     border: none;
     color: white;
@@ -49,9 +56,15 @@ body {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
 
-  img {
-    border-radius: 50%;
-    height: 300px
-  }
+/* div.white-box {
+    opacity: 0.8;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    color: black;
+    width: 60%;
+    height: 800px;
+    padding: 50px 50px;
+} */
